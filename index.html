@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>PES | IEEE Power &amp; Energy Society</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      var my_posts = $("[rel=tooltip]");
+
+      var size = $(window).width();
+      for (i = 0; i < my_posts.length; i++) {
+        the_post = $(my_posts[i]);
+
+        if (the_post.hasClass('invert') && size >= 767) {
+          the_post.tooltip({ placement: 'left' });
+          the_post.css("cursor", "pointer");
+        } else {
+          the_post.tooltip({ placement: 'rigth' });
+          the_post.css("cursor", "pointer");
+        }
+      }
+    });
+  </script>
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favicon.png">
+</head>
+<!--/head-->
+
+<body>
+  <div class="loader"></div>
+
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/events/35.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig"><span>IEEE Power &amp; Energy Society</span></h1>
+            <p class="animated fadeInRightBig"><b>Student Branch Chapter NSS College of Engineering</b></p>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/events/34.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig"><span>AIM</span></h1>
+            <p class="animated fadeInRightBig">To be the leading provider of scientific and engineering information on
+              electric power and energy for the<br> betterment of society, and the preferred professional development
+              source for our members.</p>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#about-us"><i class="fa fa-angle-down"></i></a>
+
+    </div>
+    <!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header" color="#228B22">
+          <br><img src="images/logo1.jpg">
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a href="#home">Home</a></li>
+            <li class="scroll"><a href="#about-us">About Us</a></li>
+            <li class="scroll"><a href="#blog">Chapter Advisor</a></li>
+            <li class="scroll"><a href="#team">ExCom</a></li>
+            <li class="scroll"><a href="#portfolio">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/#main-nav-->
+  </header>
+  <!--/#home-->
+
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="col_half" style="text-align: justify; background-color: rgba(100,120,150,0.6); padding: 20px;">
+            <h2 style="color: white">About US</h2>
+            <p style="text-indent: 4em; ">
+              The Power & Energy Society (PES) provides the world's largest forum for sharing the latest in
+              technological developments in the electric power industry, for developing standards that guide the
+              development and construction of equipment and systems, and for educating members of the industry and the
+              general public. Members of the Power & Energy Society are leaders in this field, and they — and their
+              employers — derive substantial benefits from involvement with this unique and outstanding association.
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="col-sm-6">
+          <img src="images\slider\PES.jpg">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#about-us-->
+  <section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms"
+          data-wow-delay="300ms">
+          <h2>CHAPTER ADVISOR</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><br><br><br>
+            <h2>Nimitha Muraleedaran</h2>
+            <p style="text-align:justify">Working as Assistant Professor in EEE Department since June 2016. Pursued
+              B.Tech from NSS College of Engineering, Palakkad in the year 2011 and M.Tech from Government Engineering
+              College, Thrissur in the year 2014.</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <img src="images\slider\2.jpeg">
+        </div>
+      </div>
+  </section>
+  <!--/#pricing-->
+
+
+
+
+  <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms"
+          data-wow-delay="300ms">
+          <h2>ExCom</h2>
+
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/2.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Anirudhan R</h3>
+                <h4>Chairman</h4>
+              </div>
+              <div class="social-icons">
+                <a href="mailto:anirudhan2808@gmail.com"><img src="images/mail3.png"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/1.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Nihal Imthihaz A</h3>
+                <h4>Vice Chairman</h4>
+              </div>
+              <div class="social-icons">
+                <a href="mailto:nihalimthiaz@ieee.org"><img src="images/mail3.png"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/default.png" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Sruthy S</h3>
+                <h4>Secretary</h4>
+              </div>
+              <div class="social-icons">
+                <a href="mailto:sruthysnair31@gmail.com"><img src="images/mail3.png"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/3.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Parvathy I</h3>
+                <h4>Treasurer</h4>
+              </div>
+              <div class="social-icons">
+                <a href="mailto:parvathyrmenon@ieee.org"><img src="images/mail3.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#team-->
+  <!--Timeline-->
+
+  <div class="container">
+    <div class="page-header text-center">
+      <h1 id="timeline">Events</h1>
+    </div>
+    <ul class="timeline">
+
+      <!--
+      <li class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip"
+              title="11 hours ago via Twitter" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+              paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+              pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+              significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+            </p>
+
+          </div>
+
+          <div class="timeline-footer">
+            <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+            <a><i class="glyphicon glyphicon-share"></i></a>
+            <a class="pull-right">Continuar Lendo</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip"
+              title="11 hours ago via Twitter" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+              paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+              pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+              significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+            </p>
+
+          </div>
+
+          <div class="timeline-footer">
+            <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+            <a><i class="glyphicon glyphicon-share"></i></a>
+            <a class="pull-right">Continuar Lendo</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip"
+              title="11 hours ago via Twitter" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+              paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+              pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+              significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+            </p>
+
+          </div>
+
+          <div class="timeline-footer">
+            <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+            <a><i class="glyphicon glyphicon-share"></i></a>
+            <a class="pull-right">Continuar Lendo</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip"
+              title="11 hours ago via Twitter" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+              paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+              pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+              significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+            </p>
+
+          </div>
+
+          <div class="timeline-footer">
+            <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+            <a><i class="glyphicon glyphicon-share"></i></a>
+            <a class="pull-right">Continuar Lendo</a>
+          </div>
+        </div>
+      </li>-->
+      
+
+      <li>
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/11.jpg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>WORKSHOP CUM HACKATHON ON BASIC ELECTRICAL ENGINEERING</b><br>
+              <b>&bull; 21-23rd Oct 2019</b><br>
+              The workshop was conducted by the Dept. Of Electrical And Electronics Engineering, IEEE Students
+              Branch NSSCE, Palakkad.It was conducted to provide engineering students the basic knowledge on electrical
+              circuits and apart
+              from the academic erudition, to get the hang of circuits, its operation, identifying the problems etc.
+              The workshop was divided into 3 days dating 21stOct, 23rdOct and 24thOct, 2019, timing 4pm-6pm.
+              32 students from electrical and non-electrical departments took part in the workshop.
+              Workshop was conducted on the following topics:<br>
+              • Conduit Systems And Lighting<br>
+              • Estimation And Costing<br>
+              • Intelligence Emergency Lamb<br>
+              • Faults And Effects<br>
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/10.jpeg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>Industrial Visit</b><br>
+              <b>&bull; 19 Oct 2019</b><br>
+              We, a group of 49 students went on an industrial visit on the 19th of October 2019 to CIAL
+              (Cochin International Airport) located in Nedumbassery (part of Kochi Metropolitan Area),
+              around 25 km in the northeast of Kochi city. The visit was organized with the prior
+              permission and guidance of Hon. Counselor of IEEE SB NSSCE Smt. Vijitha, Mr.Vaisakh
+              Thampi, and Mrs. Nimitha were the coordinators for the whole industrial visit.
+              We started our journey from the college campus at 7:30 AM along with our
+              coordinator faculties. We reached the destination at 11.00 AM and spent 2 hours exploring
+              the solar farm and with the aid of employees, we understood the technical background of
+              CIAL.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/8.jpg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>IEEE Day Quiz Competition</b><br>
+              <b>&bull; 01 Oct 2019</b><br>
+              The quiz was conducted on behalf of the PES chapter, Kerala section. The quiz
+              comprised of 40 enthusiastic participants. The venue of the program was the DLH room of
+              NSS College of engineering. The information regarding the competition was made to reach
+              the students of every branch, with the help of our publicity team, who did a splendid job in
+              that. The first round, that was conducted on the above-prescribed date was purely a written
+              round. And the questions were divided into four sections: logical answering, current affairs,
+              about Kerala and general knowledge. The quiz provided the students an opportunity to make
+              use of their up to date knowledge on various affairs.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/6.jpeg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>0 Hunger Day</b><br>
+              <b>&bull; 29 Sept 2019</b><br>
+              Together, we were successful in putting smile on thier faces, which gave us the most satisfaction after
+              all celebration. A Team of 20 Lead by Abhinav Rajeev and Swathi Sree voluteered for rhe programme. There
+              were locals from native colony, to help us to prepare the meals. 15KG of Rice was more than enough to cool
+              and serve the 'Parachathi' Colony. On our return we took initiative to stop the soil erosion at the place
+              by plantin the saplings of 'Kaitha' along the riverside.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/7.jpeg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>Sourorjya</b><br>
+              <b>&bull; 28 Aug 2019</b><br>
+              All students were informed before days. The session was conducted by ABHINAV R, Chairmanr IEEE SB NSSCE.
+              The session started with an introduction to basic electrical wiring system in our home and about the very
+              basic of solar electrical system. Practical testing of a basic unit solar panel made the session more
+              interesting and understanding. The session spoke about solar facts, components of solar off grid system
+              and types of solar installation. The detailed explanation of the design of off Grird Solar System improved
+              the knowldge about the current system in relevance. The session concluded by givin a brief introduction to
+              Solar Design Software.
+            </p>
+          </div>
+
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/44.jpg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>SCIENCE AND TECHNOLOGY QUIZ</b><br>
+              <b>&bull; 30 Apr 2019</b><br>
+              IEEE PES SBC NSSCE conducted an Quiz on the topic Science and Technology in association with PES Day
+              Celebration. The time duration was fixed to 1-hour where 15 team with 2 members each participated in the
+              quiz. The IEEE PES Quiz Competition was a grand success and witnessed a huge participation from Students.
+            </p>
+          </div>
+
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" id=""></i></a>
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/46.jpeg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>PENCIL DRAWING COMPETITION</b><br>
+              <b>&bull; 05 Apr 2019</b><br>
+              IEEE PES SBC NSSCE conducted an online Pencil Drawing Competition on the theme Role Model Portrait in
+              association with PES Day Celebration. The competition was open to all in Kerala, irrespective fo their
+              qaulifications. The top 3 drawing which got the maximum likes in instagram were selected and awarded as
+              winners.
+            </p>
+          </div>
+
+
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" id=""></i></a>
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/45.jpeg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>SENTENCE WRITING COMPETITION</b><br>
+              <b>&bull; 05 Apr 2019</b><br>
+              IEEE PES SBC NSSCE conducted an online Sentence Writing Competition on the word vicarious in association
+              with PES Day Celebration. The competition was open to all in Kerala, irrespective fo their qaulifications.
+              The best 3 sentence made with the word vicarious were selected and awarded as winners.</p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/5.jpg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>IEEE PES HUMANITARIAN ACTIVITIES COMMITTEE PROJECT 2018</b><br>
+              <b>&bull; 30 Mar 2019</b><br>
+              The IEEE SB NSSCE in association with Power and Energy Society (PES) was given
+              the opportunity to do the IEEE PES Humanitarian Activities Committee Project (HAC
+              project) “Renewable and sustainable empowerment for the needy”. this was proposed by a
+              team of five student members- Ms Sreelakshmi S Aji, Ms Thanusha J, Ms Annmary Joseph and
+              the Current Vice-Chairman of our IEEE SB Chapter, Mr. Abhiraj V S. The team won the IEEE
+              PES HAC competition on 10th October 2018 and was <b>one among the three internationally
+                selected project.</b> project was successfully commenced on the 30th of March 2019. With the
+              full support from the Chapter Advisor, Assistant Professor Mrs. Nimitha Muraleedharan and
+              from our mentor, the current Chairman of our IEEE SB Chapter, Mr. Abhinav R, the project was
+              a successful.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/4.jpg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>SPECTRUM TALK ON 5G</b><br>
+              <b>&bull; 18 Mar 2019</b><br>
+              The session was taken by Ajith M,(Chairman IAS). 5G will revolutionize the mode of wireless data transfer.
+              The talk was started by explaining the about 1G, 2G, 3G and 4G. Millimetre waves, Small Cells, Massive
+              MIMO, Beamforming and Full duplex are five technological advancement in the field of 5G. More people and
+              devices are consuming more data than ever before, but it remains crammed on the same bands of the
+              radio-frequency spectrum that mobile providers have always used. Even if it is great development in the
+              field of communication, 5G has its own drawbacks. The talk was concluded by an interactive session
+              followed by the feedbacks from the listeners.
+            </p>
+          </div>
+
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/3.jpg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>CREATE-IT WORKSHOP ON PHOTOSHOP</b><br>
+              <b>&bull; 06 Mar 2019</b><br>
+              The session was taken by Swathi Sree. The Workshop was scheduled for a couple of hours after 4 pm. All the
+              students were informed about the event beforehand. The session was conducted by Swathi Chandra R , IEEE SB
+              NSSCE member. In the current scenario , Digital promotions plays a pivotal role in marketing, amongst the
+              most creative and efficient are being raised by Cooperatives. Photoshop serves as a language in
+              communicating a detailed description of the product/event in a pixelated sheet. The session spoke about
+              creating a digital poster from a blank page using the basic tools and layer masks. The workshop was
+              concluded by an interactive session followed by a competition in designing an ID Card.
+            </p>
+          </div>
+
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/2.jpg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>QUANTUM COMPUTING</b><br>
+              <b>&bull; 26 Feb 2019</b><br>
+              The session was taken by Solomon Stuby. He presented two relevant problems that cannot be solved by a
+              normal computer. This is where a Quantum computer can play its role. The main advantage of this technology
+              is speed. Quantum computer can solve problems which a normal computer cannot even think about. He
+              explained what a ‘Qbit’ is and how it works with plenty of examples. There are still a lot of limitations
+              for this technology to come into existence as its size is very large and it must be kept under a
+              temperature of 15 millikelvins. The future scope of this technology was also discussed. It was very useful
+              session for the participants and they were enthusiastic by being part of the spectrum talk. And it was a
+              nice interactive session taken by the key speaker, Solomon Stuby
+            </p>
+          </div>
+
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="images/events/1.jpg" />
+          </div>
+          <div class="timeline-body">
+            <p><b>SPECTRUM TALK ON FUTURE PROMISING NOISE CANCELLING TECHNOLOGY</b><br>
+              <b>&bull;) 21 Feb 2019</b><br>
+              The session was taken by Nayana C T. She discussed about the importance of noice cancellation and working
+              of MUTE technology. She mentioned about the changes that will happen in the world of technology by the
+              introduction of such a product to the market and showed some videos on this experiment. It was conducted
+              at eOne Hall, 4pm on 21st February 2019. About 30 students were included in this session. It was very
+              useful session for the participants and they were enthusiastic by being part of the spectrum talk. And it
+              was a nice interactive session taken by the key speaker, Nayana C T
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li class="clearfix" style="float: none;"></li>
+    </ul>
+  </div>
+
+  <!--End Timeline-->
+
+
+  <hr>
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms"
+          data-wow-delay="300ms">
+          <h2>Gallery</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/events/29.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/events/29.jpg" data-lightbox="portfolio"><i
+                          class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/events/28.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/events/28.jpg" data-lightbox="portfolio"><i
+                          class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/events/27.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/events/27.jpg" data-lightbox="portfolio"><i
+                          class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/events/30.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/events/30.jpg" data-lightbox="portfolio"><i
+                          class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/events/31.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/events/31.jpg" data-lightbox="portfolio"><i
+                          class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/events/32.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/events/32.jpg" data-lightbox="portfolio"><i
+                          class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/events/33.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/events/33.jpg" data-lightbox="portfolio"><i
+                          class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/events/34.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/events/34.jpg" data-lightbox="portfolio"><i
+                          class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/events/35.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/events/35.jpg" data-lightbox="portfolio"><i
+                          class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section>
+  <!--/#portfolio-->
+
+
+
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/ieeeblack.png" alt=""></a>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a href="https://www.facebook.com/ieeenssce/" target="_blank" class="icon fa fa-facebook"></a></li>
+            <li><a href="https://www.instagram.com/ieeesbnssce" target="_blank" class="icon fa fa-instagram"></a></li>
+          </ul>
+        </div>
+        <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <ul class="address">
+            <li><i class="fa fa-map-marker"></i> <span>Office Address:</span> IEEE, NSSCE, Akathethara,Palakkad P.O.
+              678008</li>
+            <li><i class="fa fa-phone"></i> <span> Phone:</span> +91 7034195767 </li>
+            <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:anjanadka@gmail.com">
+                anjanadka@gmail.com</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="js/loader.js"></script>
+
+
+</body>
+
+</html>
